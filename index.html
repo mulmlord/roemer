@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CIVIS ROMANUS - Dein Guide zur Römischen Bürgerschaft</title>
     <style>
-        /* Grundlegendes Styling */
         :root {
             --primary: #8B4513;
             --secondary: #CD853F;
@@ -27,7 +26,6 @@
             line-height: 1.6;
         }
         
-        /* Header */
         header {
             background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
                         url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="%238B4513"/><path d="M50,20 L60,40 L80,45 L65,60 L70,80 L50,70 L30,80 L35,60 L20,45 L40,40 Z" fill="%23D4AF37"/></svg>');
@@ -62,7 +60,6 @@
             color: var(--accent);
         }
         
-        /* Navigation */
         nav {
             background-color: var(--dark);
             position: sticky;
@@ -88,8 +85,7 @@
         .nav-item:hover {
             background-color: var(--primary);
         }
-        
-        /* Main Content */
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -123,8 +119,7 @@
             color: var(--dark);
             margin: 1.5rem 0 1rem 0;
         }
-        
-        /* Weg zur Bürgerschaft */
+
         .path-options {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -150,8 +145,7 @@
             font-size: 2.5rem;
             margin-bottom: 1rem;
         }
-        
-        /* Vor- und Nachteile */
+
         .pros-cons {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -186,8 +180,7 @@
         .pros li, .cons li {
             margin-bottom: 0.8rem;
         }
-        
-        /* Di Cesare Kriterien */
+
         .criteria-container {
             display: flex;
             flex-direction: column;
@@ -235,8 +228,7 @@
             background-color: rgba(255, 255, 0, 0.3);
             color: darkorange;
         }
-        
-        /* Erfahrungsberichte */
+
         .testimonials {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -254,8 +246,7 @@
             color: var(--primary);
             margin-bottom: 1rem;
         }
-        
-        /* Rechner */
+
         .calculator {
             background-color: #f0f8ff;
             padding: 2rem;
@@ -313,8 +304,7 @@
             background-color: rgba(144, 238, 144, 0.3);
             border: 1px solid green;
         }
-        
-        /* Footer */
+
         footer {
             background-color: var(--dark);
             color: white;
@@ -332,7 +322,6 @@
     </style>
 </head>
 <body>
-    <!-- Header -->
     <header>
         <div class="header-content">
             <h1>CIVIS ROMANUS</h1>
@@ -340,8 +329,7 @@
             <p class="spqr">S·P·Q·R</p>
         </div>
     </header>
-    
-    <!-- Navigation -->
+
     <nav>
         <div class="nav-container">
             <a href="#wege" class="nav-item">Weg zur Bürgerschaft</a>
@@ -352,17 +340,14 @@
             <a href="#vergleich" class="nav-item">Moderner Vergleich</a>
         </div>
     </nav>
-    
-    <!-- Main Content -->
+
     <div class="container">
-        <!-- Einleitung -->
         <section id="einleitung">
             <h2>Willkommen im Imperium Romanum!</h2>
             <p>Entdecke, wie du Teil der fortschrittlichsten Bürgerschaft der Antike werden kannst. Das Römische Reich bietet einen einzigartigen Weg zur Integration - nicht durch Abstammung, sondern durch Recht und Beitrag zur Gemeinschaft.</p>
             <p>Basierend auf der Migrationsphilosophie von Donatella di Cesare erkunden wir, wie Rom ein Modell für inklusive Bürgerschaft geschaffen hat, das bis heute relevant ist.</p>
         </section>
         
-        <!-- Weg zur Bürgerschaft -->
         <section id="wege">
             <h2>Weg zur Bürgerschaft</h2>
             <p>Wähle deinen Ausgangspunkt und entdecke deinen persönlichen Weg zur römischen Bürgerschaft:</p>
@@ -394,11 +379,9 @@
             </div>
             
             <div id="path-details" style="display: none; margin-top: 2rem; padding: 1.5rem; background-color: #f0f8ff; border-radius: 8px;">
-                <!-- Dynamisch gefüllt durch JavaScript -->
             </div>
         </section>
-        
-        <!-- Vor- und Nachteile -->
+
         <section id="vorteile">
             <h2>Vorteile & Pflichten der Bürgerschaft</h2>
             
@@ -424,8 +407,7 @@
                 </div>
             </div>
         </section>
-        
-        <!-- Di Cesare Kriterien -->
+
         <section id="kriterien">
             <h2>Die 5 Kriterien nach Donatella di Cesare</h2>
             <p>Bewertung des römischen Bürgerschaftsmodells nach der Migrationsphilosophie von Donatella di Cesare:</p>
@@ -439,7 +421,7 @@
                     <div class="criterion-content" id="criterion-1">
                         <p><em>"Rom macht Migration zur Gründungsidee"</em></p>
                         <p>Rom integriert die Erfahrung des Exils in seine Identität. Schon der Gründungsmythos mit Aeneas als Flüchtling und Romulus' Asyl für Gesetzlose zeigt, dass Fremdheit nicht als Bedrohung, sondern als Bereicherung verstanden wird.</p>
-                        <div class="rating positive">✅ ERFÜLLT: Aeneas als Flüchtling als Vorbild</div>
+                        <div class="rat ing positive">✅ ERFÜLLT: Aeneas als Flüchtling als Vorbild</div>
                     </div>
                 </div>
                 
@@ -492,11 +474,10 @@
                 </div>
             </div>
         </section>
-        
-        <!-- Erfahrungsberichte -->
+
         <section id="erfahrungen">
             <h2>Erfahrungsberichte</h2>
-            <p>Echte Geschichten von Menschen, die den Weg zur römischen Bürgerschaft gegangen sind:</p>
+            <p>"Echte" Geschichten von Menschen, die den Weg zur römischen Bürgerschaft gegangen sind:</p>
             
             <div class="testimonials">
                 <div class="testimonial">
@@ -515,8 +496,7 @@
                 </div>
             </div>
         </section>
-        
-        <!-- Bürgerschafts-Rechner -->
+
         <section id="rechner">
             <h2>Bürgerschafts-Rechner</h2>
             <p>Finde heraus, wie hoch deine Chancen auf die römische Bürgerschaft sind:</p>
@@ -566,12 +546,10 @@
                 </form>
                 
                 <div class="result" id="calculator-result">
-                    <!-- Ergebnis wird hier eingefügt -->
                 </div>
             </div>
         </section>
-        
-        <!-- Moderner Vergleich -->
+
         <section id="vergleich">
             <h2>Moderner Vergleich</h2>
             
@@ -590,16 +568,13 @@
             </div>
         </section>
     </div>
-    
-    <!-- Footer -->
+
     <footer>
         <p>Eine philosophische Betrachtung der Römischen Bürgerschaft im Kontext von Donatella di Cesares "Philosophie der Migration"</p>
         <p>© 2025 - CIVIS ROMANUS - S·P·Q·R</p>
     </footer>
     
     <script>
-        // Funktionen für interaktive Elemente
-        
         function showPath(type) {
             const details = document.getElementById('path-details');
             let content = '';
@@ -669,30 +644,25 @@
             let message = '';
             let details = '';
             
-            // Bewertung nach Herkunft
             if (origin === 'roman') score += 30;
             else if (origin === 'province') score += 20;
             else if (origin === 'allied') score += 15;
             else score += 5;
             
-            // Bewertung nach Status
             if (status === 'freeborn') score += 25;
             else if (status === 'soldier') score += 20;
             else if (status === 'freed') score += 15;
             else score += 0;
-            
-            // Bewertung nach Sprache
+
             if (language === 'latin') score += 20;
             else if (language === 'some-latin') score += 10;
             else if (language === 'greek') score += 15;
             else score += 5;
-            
-            // Bewertung nach Militärdienst
+
             if (military === 'yes') score += 25;
             else if (military === 'conditional') score += 10;
             else score += 0;
             
-            // Ergebnisnachricht
             if (score >= 80) {
                 message = 'Hervorragend! Deine Chancen auf römische Bürgerschaft sind sehr hoch!';
                 details = 'Du erfüllst fast alle Voraussetzungen für die volle Bürgerschaft. Beginne mit dem Antragsprozess beim nächsten Statthalter.';
@@ -716,8 +686,7 @@
             resultDiv.className = 'result ' + (score >= 60 ? 'positive' : '');
             resultDiv.style.display = 'block';
         }
-        
-        // Initial alle Kriterien ausklappen
+
         document.addEventListener('DOMContentLoaded', function() {
             for (let i = 1; i <= 5; i++) {
                 document.getElementById(`criterion-${i}`).style.display = 'none';
